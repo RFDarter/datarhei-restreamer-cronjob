@@ -21,7 +21,7 @@ datarhei is the default passwort
 
 ## Specify jobs
 
-Under `commands` you can add a list ob jobs the script will run at the specifed time.
+Under `commands` you can add a list of jobs the script will run at the specifed time.
 You can `start` or `stop` a stream
 
 ```json
@@ -37,14 +37,14 @@ You can `start` or `stop` a stream
       "stream_id": "restreamer-ui:egress:youtube:7f2d09cf-ac79-4660-8d73-74ec65d12d9e"
     },
     {
-    "action": "stop",
-    "time": "00:42:00",
+      "action": "stop",
+      "time": "00:42:00",
       "stream_id": "restreamer-ui:egress:youtube:7f2d09cf-ac79-4660-8d73-74ec65d12d9e"
     },
     {
-    "action": "start",
-    "time": "00:42:15",
-    "stream_id": "restreamer-ui:egress:youtube:7f2d09cf-ac79-4660-8d73-74ec65d12d9e"
+      "action": "start",
+      "time": "00:42:15",
+      "stream_id": "restreamer-ui:egress:youtube:7f2d09cf-ac79-4660-8d73-74ec65d12d9e"
     }
   ]
 ```
