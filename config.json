@@ -1,0 +1,27 @@
+{
+  "url": "http://192.168.178.33:8080/api",
+  "username": "admin",
+  "password": "datarhei",
+  "commands": [
+    {
+      "action": "stop",
+      "time": "00:41:00",
+      "stream_id": "restreamer-ui:egress:youtube:7f2d09cf-ac79-4660-8d73-74ec65d12d9e"
+    },
+    {
+      "action": "start",
+      "time": "00:41:30",
+      "stream_id": "restreamer-ui:egress:youtube:7f2d09cf-ac79-4660-8d73-74ec65d12d9e"
+    },
+    {
+    "action": "stop",
+    "time": "00:42:00",
+      "stream_id": "restreamer-ui:egress:youtube:7f2d09cf-ac79-4660-8d73-74ec65d12d9e"
+    },
+    {
+    "action": "start",
+    "time": "00:42:15",
+    "stream_id": "restreamer-ui:egress:youtube:7f2d09cf-ac79-4660-8d73-74ec65d12d9e"
+    }
+  ]
+}
