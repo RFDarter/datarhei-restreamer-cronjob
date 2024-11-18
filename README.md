@@ -3,7 +3,7 @@
 With this simple python script you will be able to set times when a stream should be started or stopped.
 
 ## Installation
-`git clone https://github.com/RFDarter/datarhei-restreamer-cronjob.git`
+```git clone https://github.com/RFDarter/datarhei-restreamer-cronjob.git```
 
 
 ## Setup
@@ -50,12 +50,12 @@ You can `start` or `stop` a stream
 ```
 
 if you run 
-`py restreamer-cronjob.py -list_streams`
+```py restreamer-cronjob.py -list_streams```
 you will get a list of streams that are set up in your restreamer
 
 
 ## Run it
 
 Simply run
-`py restreamer-cronjob.py`
+```py restreamer-cronjob.py```
 to run the script
